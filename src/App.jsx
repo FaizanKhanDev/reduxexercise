@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Counter from './features/counter/Counter';
+import StudentList from './features/students/StudentList';
 
 function App() {
 
   return (
     <div className="App">
-        <Counter/>
+        <StudentList/>
     </div>
   );
 }
