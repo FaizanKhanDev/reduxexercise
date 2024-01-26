@@ -50,7 +50,7 @@ const studentSlice = createSlice({
             },
             
             getStudentById:(state, actions) => {
-                
+                    console.log("actions.payload",JSON.stringify(actions.payload));
             },
             updateStudent:(state, actions) => {
                 

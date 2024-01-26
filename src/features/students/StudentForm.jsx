@@ -20,13 +20,13 @@ function StudentForm() {
               <div className="row">
                 <div className="col-9">
                   <input type="text" 
-                  value={student.name}
+                  value={name}
                   onChange={(e) => setName(e.target.value)}
                    className="form-control" 
                   placeholder="Name"  />
 
 
-                  <input type="number" value={student.age}  className="form-control"
+                  <input type="number" value={age}  className="form-control"
                    placeholder="Age"
                    onChange={(e) => setAge(e.target.value)}
                      />
